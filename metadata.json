@@ -1,0 +1,47 @@
+{
+  "N": 178,
+  "features": 13,
+  "class_counts": {
+    "1": 59,
+    "2": 71,
+    "3": 48
+  },
+  "missing": 0,
+  "duplicate_rows": 0,
+  "dropped_rows": 0,
+  "seed": 5420,
+  "noise_seed": 5421,
+  "bootstrap_seed": 5422,
+  "k_grid": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31
+  ],
+  "C_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "repeats": 20,
+  "wine_data_sha256": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659",
+  "numpy_version": "1.26.4",
+  "sklearn_version": "1.4.2",
+  "interval": "95% class-stratified wine-ID percentile bootstrap; 10000 resamples; 20 held-out correctness values averaged per wine; no refitting. Conditional descriptive interval, not a full training-sample uncertainty interval."
+}
